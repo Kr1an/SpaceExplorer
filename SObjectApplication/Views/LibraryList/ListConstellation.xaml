@@ -1,0 +1,78 @@
+﻿<Window x:Class="SObjectApplication.Views.LibraryList.ListConstellation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SObjectApplication.Views.LibraryList"
+        mc:Ignorable="d"
+        Title="ListConstellation" Height="350" Width="525">
+	<Grid Background="#FFD0EAF3">
+
+		<Grid.RowDefinitions>
+			<RowDefinition />
+			<RowDefinition Height="71.2"/>
+		</Grid.RowDefinitions>
+
+		<Grid HorizontalAlignment="Left" Height="71" Margin="0,0.4,0,-0.2" VerticalAlignment="Top" Width="518" Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Grid.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="#FFD7FFFE" Offset="0"/>
+					<GradientStop Offset="0.298"/>
+				</LinearGradientBrush>
+			</Grid.Background>
+
+			<Grid.Effect>
+				<DropShadowEffect BlurRadius="40" Direction="90" Color="#FFBCDDFF" ShadowDepth="10"/>
+			</Grid.Effect>
+			<Border BorderBrush="#FF899185" BorderThickness="1" Height="51" Margin="10,10,0,10" VerticalAlignment="Center" Width="78" CornerRadius="15" Background="#0C00FF03" HorizontalAlignment="Left">
+				<Image x:Name="imgBack" Source="/SObjectApplication;component/resources/Drawable/back.png" MouseLeftButtonUp="imgBack_MouseUp"/>
+			</Border>
+			<Border BorderBrush="#FF899185" BorderThickness="1" HorizontalAlignment="Right" Height="51" Margin="0,10,10.4,10" Width="78" CornerRadius="15" Background="#0C00FF03" Grid.Column="4" VerticalAlignment="Center" Visibility="Hidden">
+				<Image x:Name="imgNext" Source="/SObjectApplication;component/resources/Drawable/next.png" MouseLeftButtonDown="imgNext_MouseLeftButtonDown"/>
+			</Border>
+			<Grid Grid.Column="1" HorizontalAlignment="Left" Height="71" Margin="0.6,0,0,0" VerticalAlignment="Top" Width="315" Grid.ColumnSpan="4"/>
+			<Image x:Name="btn_delete" Grid.Column="1" Height="51" Margin="0" Width="84" Source="/SObjectApplication;component/resources/Drawable/cancel.png" MouseLeftButtonUp="btn_delete_MouseLeftButtonUp"/>
+			<Image x:Name="btn_info" Grid.Column="2" Height="51" Margin="0" Width="83" Source="/SObjectApplication;component/resources/Drawable/information.png" MouseLeftButtonUp="btn_info_MouseLeftButtonUp"/>
+			<Image x:Name="btn_add" Grid.Column="3" Height="51" Margin="0" Width="84" Source="/SObjectApplication;component/resources/Drawable/add.png" MouseLeftButtonUp="btn_add_MouseLeftButtonUp"/>
+		</Grid>
+		<Grid HorizontalAlignment="Left" Height="230" Margin="10,10,0,0" VerticalAlignment="Top" Width="498">
+			<Border  BorderBrush="#FF000000" BorderThickness="0" CornerRadius="30" Background="#FFBCDDFF">
+				<ListView GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollBarVisibility="Disabled" x:Name="listView" Margin="10,10,0,10.4" BorderBrush="{x:Null}" Background="#359DFF8E" FontFamily="Tahoma" MouseLeftButtonDown="listView_MouseLeftButtonDown" HorizontalAlignment="Left" Width="475">
+					<ListView.ItemContainerStyle>
+						<Style TargetType="ListViewItem">
+							<EventSetter Event="MouseDoubleClick" Handler="listViewItem_MouseDoubleClick" />
+						</Style>
+					</ListView.ItemContainerStyle>
+					<ListView.View>
+
+						<GridView>
+
+							<GridView.ColumnHeaderContainerStyle>
+								<Style TargetType="{x:Type GridViewColumnHeader}">
+									<!-- Set any properties you want to set -->
+
+									<Setter Property="Background" Value="LightBlue" />
+									<Setter Property="Foreground" Value="gray" />
+									<Setter Property="FontWeight" Value="Bold" />
+									<Setter Property="Height" Value="30px"/>
+									<Setter Property="MinWidth" Value ="20px"/>
+								</Style>
+							</GridView.ColumnHeaderContainerStyle>
+							<GridViewColumn  Header="ShortName" x:Name="colShortName"  Width="80px" DisplayMemberBinding="{Binding ExInfo.ShortName}"/>
+							<GridViewColumn Header="Name" x:Name="colName"  Width="220px" DisplayMemberBinding="{Binding Name}"/>
+							<GridViewColumn Header="Stars" x:Name="colStarNum"  Width="55px" DisplayMemberBinding="{Binding Stars.Length }"/>
+							<GridViewColumn Header="Position" x:Name="colPosition" Width="120px" DisplayMemberBinding="{Binding Position.ToString}" />
+						</GridView>
+					</ListView.View>
+				</ListView>
+			</Border>
+		</Grid>
+	</Grid>
+</Window>

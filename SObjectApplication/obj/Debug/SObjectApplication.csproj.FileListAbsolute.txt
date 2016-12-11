@@ -1,0 +1,108 @@
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\bin\Debug\SObjectApplication.exe.config
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\bin\Debug\SObjectApplication.exe
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\bin\Debug\SObjectApplication.pdb
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.csprojResolveAssemblyReference.cache
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\MainWindow.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\App.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication_MarkupCompile.cache
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication_MarkupCompile.lref
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\MainWindow.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.g.resources
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.Properties.Resources.resources
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.csproj.GenerateResource.Cache
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.exe
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.pdb
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\Add.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\Library.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\Add.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\Library.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListConstellation.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListConstellation.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListStar.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListStar.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListPlanet.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListPlanet.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddConstillation.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddConstillation.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddStar.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddStar.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddPlanet.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddPlanet.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeConstellation.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeConstellation.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeStar.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeStar.baml
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangePlanet.g.cs
+C:\Users\Kr1an_000\Documents\Visual Studio 2015\Projects\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangePlanet.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\bin\Debug\SObjectApplication.exe.config
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\SObjectApplication.exe
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\SObjectApplication.pdb
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\bin\Debug\SObjectApplication.exe
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\bin\Debug\SObjectApplication.pdb
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\Add.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\Library.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\MainWindow.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddConstillation.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddPlanet.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddStar.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeConstellation.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangePlanet.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeStar.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\ListConstellation.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\ListPlanet.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\ListStar.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\App.g.cs
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\SObjectApplication_MarkupCompile.cache
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\SObjectApplication_MarkupCompile.lref
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\Add.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\Library.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\MainWindow.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddConstillation.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddPlanet.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddStar.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeConstellation.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangePlanet.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeStar.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\ListConstellation.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\ListPlanet.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\Views\LibraryList\ListStar.baml
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\SObjectApplication.g.resources
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\SObjectApplication.Properties.Resources.resources
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\SObjectApplication.csproj.GenerateResource.Cache
+C:\Users\Kr1an_000\Desktop\SObjectRepository-master\SObjectApplication\obj\Debug\SObjectApplication.csprojResolveAssemblyReference.cache
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\bin\Debug\SObjectApplication.exe.config
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.exe
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.pdb
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\bin\Debug\SObjectApplication.exe
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\bin\Debug\SObjectApplication.pdb
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.csprojResolveAssemblyReference.cache
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\Add.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\Library.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\MainWindow.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddConstillation.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddPlanet.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddStar.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeConstellation.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangePlanet.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeStar.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListConstellation.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListPlanet.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListStar.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\App.g.cs
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication_MarkupCompile.cache
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication_MarkupCompile.lref
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\Add.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\Library.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\MainWindow.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddConstillation.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddPlanet.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\AddStar.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeConstellation.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangePlanet.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\AddConstellation\Change\ChangeStar.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListConstellation.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListPlanet.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\Views\LibraryList\ListStar.baml
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.g.resources
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.Properties.Resources.resources
+D:\audiobook\sorep\SObjectRepository\SObjectApplication\obj\Debug\SObjectApplication.csproj.GenerateResource.Cache

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{373A43A4-188F-4A61-9EA8-F88C537AE1D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SObjectApplication</RootNamespace>
+    <AssemblyName>SObjectApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Repository\ChainCollection\Chain.cs" />
+    <Compile Include="Repository\Serializer\Serializer.cs" />
+    <Compile Include="Repository\SObjectApplicationSaveHelper\ConstellationFormatter.cs" />
+    <Compile Include="Repository\SObjectApplicationSaveHelper\EntitiesFormatter.cs" />
+    <Compile Include="Repository\SObjectApplicationSaveHelper\PlanetFormatter.cs" />
+    <Compile Include="Repository\SObjectApplicationSaveHelper\ReadWriter.cs" />
+    <Compile Include="Repository\SObjectApplicationSaveHelper\SaveHelper.cs" />
+    <Compile Include="Repository\SObjectApplicationSaveHelper\StarFormatter.cs" />
+    <Compile Include="Repository\SObjectModel\Constellation.cs" />
+    <Compile Include="Repository\SObjectModel\Planet.cs" />
+    <Compile Include="Repository\SObjectModel\Star.cs" />
+    <Compile Include="Repository\SObjectModel\Utils\ImageHelper.cs" />
+    <Compile Include="Repository\SObjectModel\Utils\InfoHelper.cs" />
+    <Compile Include="Repository\SObjectModel\Utils\PlanetFeature.cs" />
+    <Compile Include="Repository\SObjectModel\Utils\Position.cs" />
+    <Compile Include="Repository\SObjectModel\Utils\StarFeature.cs" />
+    <Compile Include="Repository\Tests\UTests.cs" />
+    <Compile Include="Storage.cs" />
+    <Compile Include="Views\LibraryList\AddConstellation\AddConstillation.xaml.cs">
+      <DependentUpon>AddConstillation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryList\AddConstellation\AddPlanet.xaml.cs">
+      <DependentUpon>AddPlanet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryList\AddConstellation\AddStar.xaml.cs">
+      <DependentUpon>AddStar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryList\AddConstellation\Change\ChangeConstellation.xaml.cs">
+      <DependentUpon>ChangeConstellation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryList\AddConstellation\Change\ChangePlanet.xaml.cs">
+      <DependentUpon>ChangePlanet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryList\AddConstellation\Change\ChangeStar.xaml.cs">
+      <DependentUpon>ChangeStar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryList\ListConstellation.xaml.cs">
+      <DependentUpon>ListConstellation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryList\ListPlanet.xaml.cs">
+      <DependentUpon>ListPlanet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryList\ListStar.xaml.cs">
+      <DependentUpon>ListStar.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Library.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Views\Add.xaml.cs">
+      <DependentUpon>Add.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\Library.xaml.cs">
+      <DependentUpon>Library.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\LibraryList\AddConstellation\AddConstillation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryList\AddConstellation\AddPlanet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryList\AddConstellation\AddStar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryList\AddConstellation\Change\ChangeConstellation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryList\AddConstellation\Change\ChangePlanet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryList\AddConstellation\Change\ChangeStar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryList\ListConstellation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryList\ListPlanet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryList\ListStar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\bookshelf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\planet-earth.png" />
+    <Resource Include="resources\Drawable\star %281%29.png" />
+    <Resource Include="resources\Drawable\ursa-major.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\information.png" />
+    <Resource Include="resources\Drawable\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\galaxy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\planet-earth %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\saturn.png" />
+    <Resource Include="resources\Drawable\venus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\refresh.png" />
+    <Resource Include="resources\Drawable\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\door %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\Drawable\exit.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
